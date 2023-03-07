@@ -34,7 +34,7 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(200, 200, 200, 0.6);
+    background: rgba(200, 200, 200, 0.63);
 }
 
 .description {
@@ -45,7 +45,7 @@ body {
 	text-align: center;
 }
 .description h1 {
-	color: #4169e1;
+	color: #fff;
 }
 .description p {
 	color: #fff;
