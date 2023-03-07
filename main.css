@@ -1,0 +1,29 @@
+.header {
+    background-image: url('magnolia_4k_5k_hd.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #baedeb;
+}
+.navbar {
+    background:#86cecb;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
