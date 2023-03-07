@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: #baedeb;
+    background: #d0fbf9;
 }
 .navbar {
     background:#86cecb;
@@ -34,7 +34,7 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(200, 200, 200, 0.63);
+    background: rgba(190, 190, 190, 0.63);
 }
 
 .description {
@@ -70,4 +70,19 @@ body {
 	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+.features .btn {
+    background-color: #86cecb;
+    border: 1px solid #86cecb;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
 }
